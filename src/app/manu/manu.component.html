@@ -1,15 +1,17 @@
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4IiB2aWV3Qm94PSIwIDAgNTY3Ljg2MyA1NjcuODYzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1NjcuODYzIDU2Ny44NjM7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjgzLjkzMSwwQzEyNy4xMTgsMCwwLDEyNy4xMTksMCwyODMuOTMxYzAsMTU2LjgxMywxMjcuMTE4LDI4My45MzIsMjgzLjkzMSwyODMuOTMyczI4My45MzItMTI3LjExOSwyODMuOTMyLTI4My45MzIgICAgQzU2Ny44NjMsMTI3LjExOSw0NDAuNzQ0LDAsMjgzLjkzMSwweiBNNDg2Ljc4NSw0MDcuNDUxYy01LjE3MiwzLjM4NS0xMC45OTIsNS4wMDYtMTYuNzM4LDUuMDA2ICAgIGMtOS45NzcsMC0xOS43NS00Ljg3MS0yNS42MjUtMTMuODM4bC0xMC45OTItMTYuNzY4bC0zNC4wODItNTIuMDJIMTY4LjUxNGwtMzQuMDgzLDUyLjAybC0xMC45ODUsMTYuNzY4ICAgIGMtOS4yNTksMTQuMTMzLTI4LjIxOSwxOC4wODYtNDIuMzYyLDguODI2Yy0xNC4xMzctOS4yNjYtMTguMDkxLTI4LjIzMi04LjgyNS00Mi4zNjlMMjU4LjM0Myw4MS4wNzggICAgYzUuNjU1LTguNjI5LDE1LjI3Ni0xMy44MzEsMjUuNTk0LTEzLjgzMWMxMC4zMTksMCwxOS45NCw1LjIwMiwyNS41OTQsMTMuODMxbDE4Ni4wNzgsMjg0LjAwNCAgICBDNTA0Ljg3NSwzNzkuMjEzLDUwMC45MjIsMzk4LjE4Niw0ODYuNzg1LDQwNy40NTF6IiBmaWxsPSIjMDAwMDAwIi8+CgkJPHBvbHlnb24gcG9pbnRzPSIyMDguNjEyLDI2OC42MzEgMzU5LjI1LDI2OC42MzEgMjgzLjkzMSwxNTMuNjg1ICAgIiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" width="120" height="120" style="margin-left: 47%" alt="Ayana Beauty"/>
+
 <nav class="slidemenu">
   <!-- Item 1 -->
-  <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
-  <label for="slide-item-1"><p class="icon">☁</p><span>O nas</span></label>
+  <input routerLink="/home" type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+  <label routerLink="/home" for="slide-item-1"><p class="icon">☁</p><span>O nas</span></label>
 
   <!-- Item 2 -->
   <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
   <label for="slide-item-2"><p class="icon">📷</p><span>Galeria</span></label>
 
   <!-- Item 3 -->
-  <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
-  <label for="slide-item-3"><p class="icon">✄</p><span>Usługi</span></label>
+  <input routerLink="/costs" type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+  <label routerLink="/costs" for="slide-item-3"><p class="icon">✄</p><span>Usługi</span></label>
 
   <!-- Item 4 -->
   <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
@@ -19,7 +21,6 @@
   <input type="radio" name="slideItem" id="slide-item-5" class="slide-toggle"/>
   <label for="slide-item-5"><p class="icon">☏</p><span>Kontakt</span></label>
 
-
   <div class="clear"></div>
 
   <!-- Bar -->
@@ -27,3 +28,4 @@
     <div class="bar"></div>
   </div>
 </nav>
+<router-outlet></router-outlet>
