@@ -7,6 +7,9 @@ import { AboutComponent } from './about/about.component';
 import { CostTableComponent } from './cost-table/cost-table.component';
 import {AppRouting} from './app.routing';
 import { ContactComponent } from './contact/contact.component';
+import { BookComponent } from './book/book.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MaterialModule} from './material/material.module';
 
 @NgModule({
   declarations: [
@@ -14,11 +17,14 @@ import { ContactComponent } from './contact/contact.component';
     ManuComponent,
     AboutComponent,
     CostTableComponent,
-    ContactComponent
+    ContactComponent,
+    BookComponent
   ],
   imports: [
     BrowserModule,
-    AppRouting
+    AppRouting,
+    BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
