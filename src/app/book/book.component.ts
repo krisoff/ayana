@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-book',
@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BookComponent implements OnInit {
 
-  constructor() { }
+  minDate = new Date();
+  maxDate = new Date(this.minDate.getFullYear(), this.minDate.getMonth(), this.minDate.getDay() + 21);
+  times = ['10:00', '10:30', '11:00', '11:30', '12:00', '12:30', '13:00', '13:30'];
+  setectedTime: string;
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
 
+  dateFilter = date => {
+    const day = date.getDay();
+    return day !== 0 && day !== 6;
+  };
 }

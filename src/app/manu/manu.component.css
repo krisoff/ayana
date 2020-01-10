@@ -62,7 +62,7 @@ img{
   width: 100%;
   height: 5px;
   display: block;
-  background: rgba(247, 69, 255, 0.18);
+  background: #edc9d9;
   margin-top: 10px;
   border-radius: 5px;
 }

@@ -115,7 +115,7 @@ input {
 }
 
 input:hover {
-  background: rgba(131, 38, 132, 0.16);
+  background: #edc9d9;
   color: #324960;
 }
 
@@ -142,7 +142,7 @@ textarea {
 }
 
 textarea:hover {
-  background: rgba(131, 38, 132, 0.16);
+  background: #edc9d9;
   color: #324960;
 }
 

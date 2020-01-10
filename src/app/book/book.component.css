@@ -1,0 +1,23 @@
+div{
+  width: 300px;
+  margin: auto;
+  border-style: solid;
+  border-color: #edc9d9;
+  box-shadow: 5px 5px 5px rgba(131, 38, 132, 0.16);
+}
+
+button{
+  margin-left: 10px;
+}
+
+mat-form-field{
+  margin-left: 5px;
+}
+
+header {
+  position: relative;
+  margin: 100px 0 25px 0;
+  font-size: 2.3em;
+  text-align: center;
+  letter-spacing: 7px;
+}
