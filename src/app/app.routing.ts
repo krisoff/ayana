@@ -4,6 +4,7 @@ import {CostTableComponent} from './cost-table/cost-table.component';
 import {AboutComponent} from './about/about.component';
 import {ContactComponent} from './contact/contact.component';
 import {BookComponent} from './book/book.component';
+import {GalleryComponent} from './gallery/gallery.component';
 
 const appRoutes: Routes = [
   {
@@ -21,6 +22,10 @@ const appRoutes: Routes = [
   {
     path: 'booking',
     component: BookComponent
+  },
+  {
+    path: 'gallery',
+    component: GalleryComponent
   }
 ];
 
