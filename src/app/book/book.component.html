@@ -1,18 +1,22 @@
-<header>ZAREZERWUJ WIZYTE</header>
+<header class="headerFirst">ZAREZERWUJ WIZYTĘ</header>
 <div>
   <mat-form-field color="primary">Imie
     <input matInput>
   </mat-form-field>
+  <br>
   <mat-form-field>
     <input matInput [matDatepicker]="myDatePicker" [min]="minDate" [max]="maxDate" [matDatepickerFilter]="dateFilter">
     <mat-datepicker-toggle [for]="myDatePicker" matSuffix></mat-datepicker-toggle>
     <mat-datepicker startView="month" #myDatePicker></mat-datepicker>
   </mat-form-field>
-  <mat-form-field >
+  <br>
+  <mat-form-field>
       <mat-label>Godzina</mat-label>
       <mat-select [(value)]="setectedTime">
         <mat-option *ngFor="let time of times" [value]="time">{{time}}</mat-option>
       </mat-select>
   </mat-form-field>
+  <br>
   <button mat-raised-button (mouseover)="$event">Zarezerwuj</button>
 </div>
+<header class="headerSecond">LUB NAPISZ <a routerLink="/contact">TUTAJ</a></header>
