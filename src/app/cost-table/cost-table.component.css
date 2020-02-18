@@ -4,9 +4,7 @@
   -moz-box-sizing: border-box;
 }
 body{
-  font-family: Helvetica;
   -webkit-font-smoothing: antialiased;
-  background: rgba( 71, 147, 227, 1);
 }
 h2{
   text-align: center;
@@ -19,7 +17,7 @@ h2{
 
 header {
   position: relative;
-  margin: 100px 0 25px 0;
+  margin: 0px 0 25px 0;
   font-size: 2.3em;
   text-align: center;
   letter-spacing: 7px;
@@ -29,19 +27,20 @@ header {
 
 .table-wrapper{
   margin: 10px 70px 70px;
-  box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
 }
 
 .fl-table {
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: normal;
   border: none;
   border-collapse: collapse;
-  width: 100%;
+  width: 60%;
+  margin: 0 auto;
   max-width: 100%;
   white-space: nowrap;
   background-color: white;
+  box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
 }
 
 .fl-table td, .fl-table th {
@@ -51,18 +50,18 @@ header {
 
 .fl-table td {
   border-right: 1px solid #f8f8f8;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .fl-table thead th {
   color: #ffffff;
-  background: #edc9d9;
+  background: #f5dc4f;
 }
 
 
 .fl-table thead th:nth-child(odd) {
   color: #ffffff;
-  background: #324960;
+  background: black;
 }
 
 .fl-table tr:nth-child(even) {
