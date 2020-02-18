@@ -5,6 +5,7 @@ import {AboutComponent} from './about/about.component';
 import {ContactComponent} from './contact/contact.component';
 import {BookComponent} from './book/book.component';
 import {GalleryComponent} from './gallery/gallery.component';
+import {AdminComponent} from './admin/admin.component';
 
 const appRoutes: Routes = [
   {
@@ -26,6 +27,10 @@ const appRoutes: Routes = [
   {
     path: 'gallery',
     component: GalleryComponent
+  },
+  {
+    path: 'adminAneta',
+    component: AdminComponent
   }
 ];
 

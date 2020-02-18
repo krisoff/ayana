@@ -11,6 +11,7 @@ import { BookComponent } from './book/book.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MaterialModule} from './material/material.module';
 import { GalleryComponent } from './gallery/gallery.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GalleryComponent } from './gallery/gallery.component';
     CostTableComponent,
     ContactComponent,
     BookComponent,
-    GalleryComponent
+    GalleryComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
