@@ -82,6 +82,7 @@ body {
 }
 
 header {
+  font-family: "Corbel Light", sans-serif;
   position: relative;
   margin: 100px 0 25px 0;
   font-size: 2.3em;
@@ -115,7 +116,7 @@ input {
 }
 
 input:hover {
-  background: #edc9d9;
+  background: #f5dc4f;
   color: #324960;
 }
 
@@ -142,7 +143,8 @@ textarea {
 }
 
 textarea:hover {
-  background: #edc9d9;
+  background: #f5dc4f;
+
   color: #324960;
 }
 
@@ -175,6 +177,7 @@ textarea:hover {
   }
 
   .godziny{
+    font-family: "Corbel Light", sans-serif;
     width: 300px;
     height: 260px;
     float: left;
@@ -190,6 +193,7 @@ textarea:hover {
   }
 
   .godziny{
+    font-family: "Corbel Light", sans-serif;
     width: 300px;
     height: 260px;
     float: left;
