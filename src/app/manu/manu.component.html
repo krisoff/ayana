@@ -1,31 +1,20 @@
-<img src="../../assets/logo.png" alt="Ayana Beauty"/>
+<!--<img src="../../assets/logo.png" alt="Ayana Beauty"/>-->
 
-<nav class="slidemenu">
-  <!-- Item 1 -->
-  <input routerLink="/" type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
-  <label routerLink="/" for="slide-item-1"><p class="icon">☁</p><span>O nas</span></label>
-
-  <!-- Item 2 -->
-  <input routerLink="/gallery" type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
-  <label routerLink="/gallery" for="slide-item-2"><p class="icon">📷</p><span>Galeria</span></label>
-
-  <!-- Item 3 -->
-  <input routerLink="/costs" type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
-  <label routerLink="/costs" for="slide-item-3"><p class="icon">✄</p><span>Usługi</span></label>
-
-  <!-- Item 4 -->
-  <input routerLink="/booking" type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
-  <label routerLink="/booking" for="slide-item-4"><p class="icon">✑</p><span>Zarezerwuj</span></label>
-
-  <!-- Item 4 -->
-  <input routerLink="/contact" type="radio" name="slideItem" id="slide-item-5" class="slide-toggle"/>
-  <label routerLink="/contact" for="slide-item-5"><p class="icon">☏</p><span>Kontakt</span></label>
-
-  <div class="clear"></div>
-
-  <!-- Bar -->
-  <div class="slider">
-    <div class="bar"></div>
+<header>
+  <div class="container">
+    <div class="logo-box">
+      <a href="/">
+        <img src="../../assets/logo.png">
+      </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a routerLink="/">O nas</a></li>
+        <li><a routerLink="/gallery">Galeria</a></li>
+        <li><a routerLink="/costs">Usługi</a></li>
+        <li><a routerLink="/contact">Kontakt</a></li>
+      </ul>
+    </nav>
+    <router-outlet></router-outlet>
   </div>
-</nav>
-<router-outlet></router-outlet>
+</header>
