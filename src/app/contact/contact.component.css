@@ -4,6 +4,11 @@ img{
   margin: auto 0;
 }
 
+iframe{
+  display: block;
+  margin: auto 0;
+}
+
 img:hover{
   cursor: pointer;
 }
