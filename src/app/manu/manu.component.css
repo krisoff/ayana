@@ -7,13 +7,12 @@ img{
 }
 
 header {
+  text-align: center;
+  height: 225px;
   display: block;
   padding: 20px 0;
-  height: 125px;
   /*box-shadow: 0 4px 6px rgba(0,0,0,.2);*/
   background: white;
-  border-bottom-style: solid;
-  border-color: #f5dc4f;
 }
 
 .container {
@@ -23,9 +22,9 @@ header {
   margin: 0 auto;
 }
 .logo-box {
-  float: left;
-  margin-right: 20px;
-  margin-top: -15px;
+  float: none;
+  display: inline-block;
+  margin: -15px 20px 16px 0;
 }
 .logo-box a {
   outline: none;
@@ -39,7 +38,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  float: right;
+  float: none;
 }
 nav li {
   display: inline-block;
@@ -48,6 +47,9 @@ nav li {
   line-height: 70px;
   transition: .5s linear;
 }
+
+nav li:first-of-type {margin-left: 0;}
+
 nav a {
   text-decoration: none;
   display: block;
@@ -67,18 +69,6 @@ nav a:after {
 }
 nav a:hover:after {width: 100%;}
 
-@media screen and (max-width: 660px) {
-  header {text-align: center;
-    height: 225px;
-  }
-  .logo-box {
-    float: none;
-    display: inline-block;
-    margin: 0 0 16px 0;
-  }
-  ul {float: none;}
-  nav li:first-of-type {margin-left: 0;}
-}
 @media screen and (max-width: 550px) {
   header {
     height: 325px;
